@@ -1,10 +1,10 @@
 num = input("Enter a number: ")
 
-if (num == "0"):
+if num == "0":
     print("This number is both positive and negative.")
     
-if (num < "0"):
+elif num < "0":
     print("This number is negative.")
     
-if (num > "0"):
+else:
     print("This number is positive.")
