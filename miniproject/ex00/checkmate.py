@@ -39,7 +39,7 @@ def checkmate(board):
             (r, c) for r in range(n) for c in range(n) if grid[r][c] == 'K'
         ]
         if len(king_positions) != 1:
-            print("Error: there must be exactly one King on the board")
+            print("Error: there must be only one King on the board")
             return
         king_pos = king_positions[0]
 
